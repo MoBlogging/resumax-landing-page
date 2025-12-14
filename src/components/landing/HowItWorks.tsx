@@ -1,23 +1,23 @@
 const steps = [
   {
     number: "01",
-    title: "Download the App",
-    description: "Get Resumax free on iOS or Android and create your account in seconds."
+    title: "Upload Resume",
+    description: "Simply upload your existing resume or start fresh. We support PDF, Word, and more."
   },
   {
     number: "02",
-    title: "Choose a Template",
-    description: "Browse our collection of professional templates designed for your industry."
+    title: "Process & Improve",
+    description: "Our AI analyzes and enhances your content, optimizing for ATS and recruiters."
   },
   {
     number: "03",
-    title: "Fill in Your Details",
-    description: "Add your experience, skills, and education. Our AI helps you write compelling content."
+    title: "Choose Template",
+    description: "Pick from our collection of professional, industry-specific templates."
   },
   {
     number: "04",
-    title: "Export & Apply",
-    description: "Download your polished resume and start applying to your dream jobs."
+    title: "Download & Share",
+    description: "Export your polished resume and share it directly with employers."
   }
 ];
 
