@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { useToast } from "@/hooks/use-toast";
+import { supabase } from "@/integrations/supabase/client";
 import { Mail, Sparkles } from "lucide-react";
 
 const Waitlist = () => {
@@ -23,8 +24,26 @@ const Waitlist = () => {
 
     setIsLoading(true);
     
-    // Simulate API call
-    await new Promise((resolve) => setTimeout(resolve, 1000));
+    const { error } = await supabase
+      .from("waitlist")
+      .insert({ email: email.trim().toLowerCase() });
+
+    if (error) {
+      if (error.code === "23505") {
+        toast({
+          title: "Already registered",
+          description: "This email is already on our waitlist!",
+        });
+      } else {
+        toast({
+          title: "Error",
+          description: "Something went wrong. Please try again.",
+          variant: "destructive",
+        });
+      }
+      setIsLoading(false);
+      return;
+    }
     
     toast({
       title: "You're on the list! 🎉",
