@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Apple, Play } from "lucide-react";
+import { Apple } from "lucide-react";
 
 const CTA = () => {
   return (
@@ -14,24 +14,16 @@ const CTA = () => {
             Ready to Land Your Dream Job?
           </h2>
           <p className="text-lg text-primary-foreground/70 mb-10 max-w-xl mx-auto">
-            Join over 2 million job seekers who have created winning resumes with Resumax. Download now and start your success story.
+            Join job seekers who have created winning resumes with Resumax. Download on the App Store and start your success story.
           </p>
           
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+          <div className="flex justify-center">
             <Button 
               size="xl" 
               className="w-full sm:w-auto bg-accent-foreground text-accent hover:bg-accent-foreground/90"
             >
               <Apple className="w-5 h-5" />
-              Download for iOS
-            </Button>
-            <Button 
-              size="xl" 
-              variant="outline"
-              className="w-full sm:w-auto border-primary-foreground/20 text-primary-foreground hover:bg-primary-foreground/10"
-            >
-              <Play className="w-5 h-5" />
-              Get it on Android
+              Download on the App Store
             </Button>
           </div>
 
