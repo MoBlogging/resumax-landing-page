@@ -51,24 +51,31 @@ const PrivacyPolicy = () => {
             </section>
 
             <section>
-              <h2 className="text-2xl font-semibold text-foreground mb-4">4. Data Storage and Security</h2>
+              <h2 className="text-2xl font-semibold text-foreground mb-4">4. AI Processing and Third-Party Providers</h2>
+              <p className="text-muted-foreground leading-relaxed">
+                Resumax uses artificial intelligence to analyze, improve, and reformat your resume content. To provide these features, portions of your resume data may be transmitted to third-party AI service providers. We currently use <strong className="text-foreground">Groq</strong> and <strong className="text-foreground">Gemini</strong> for AI-powered processing. These providers process data in accordance with their own privacy and security practices. We do not share more information than is necessary to deliver the requested AI features, and we encourage you to review their respective privacy policies.
+              </p>
+            </section>
+
+            <section>
+              <h2 className="text-2xl font-semibold text-foreground mb-4">5. Data Storage and Security</h2>
               <p className="text-muted-foreground leading-relaxed">
                 We implement appropriate technical and organizational security measures to protect your personal information. Your resume data is encrypted both in transit and at rest. We retain your information only for as long as necessary to fulfill the purposes outlined in this policy or as required by law.
               </p>
             </section>
 
             <section>
-              <h2 className="text-2xl font-semibold text-foreground mb-4">5. Sharing of Information</h2>
+              <h2 className="text-2xl font-semibold text-foreground mb-4">6. Sharing of Information</h2>
               <p className="text-muted-foreground leading-relaxed mb-4">We do not sell your personal information. We may share your information with:</p>
               <ul className="list-disc list-inside text-muted-foreground space-y-2">
-                <li>Service providers who assist in operating our app</li>
+                <li>Service providers who assist in operating our app, including AI providers such as Groq and Gemini</li>
                 <li>Analytics partners to improve our services</li>
                 <li>Legal authorities when required by law</li>
               </ul>
             </section>
 
             <section>
-              <h2 className="text-2xl font-semibold text-foreground mb-4">6. Your Rights and Choices</h2>
+              <h2 className="text-2xl font-semibold text-foreground mb-4">7. Your Rights and Choices</h2>
               <p className="text-muted-foreground leading-relaxed mb-4">You have the right to:</p>
               <ul className="list-disc list-inside text-muted-foreground space-y-2">
                 <li>Access, update, or delete your personal information</li>
@@ -80,21 +87,21 @@ const PrivacyPolicy = () => {
             </section>
 
             <section>
-              <h2 className="text-2xl font-semibold text-foreground mb-4">7. Children's Privacy</h2>
+              <h2 className="text-2xl font-semibold text-foreground mb-4">8. Children's Privacy</h2>
               <p className="text-muted-foreground leading-relaxed">
                 Our services are not intended for individuals under the age of 16. We do not knowingly collect personal information from children under 16. If we become aware that we have collected such information, we will take steps to delete it.
               </p>
             </section>
 
             <section>
-              <h2 className="text-2xl font-semibold text-foreground mb-4">8. Changes to This Policy</h2>
+              <h2 className="text-2xl font-semibold text-foreground mb-4">9. Changes to This Policy</h2>
               <p className="text-muted-foreground leading-relaxed">
                 We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new policy on this page and updating the "Last updated" date. We encourage you to review this policy periodically.
               </p>
             </section>
 
             <section>
-              <h2 className="text-2xl font-semibold text-foreground mb-4">9. Contact Us</h2>
+              <h2 className="text-2xl font-semibold text-foreground mb-4">10. Contact Us</h2>
               <p className="text-muted-foreground leading-relaxed">
                 If you have any questions about this Privacy Policy or our data practices, please contact us at:
               </p>
